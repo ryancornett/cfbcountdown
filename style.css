@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('img/navy-stadium.jpg');
+  background-size: 100%;
+  background-position-x: center;
+  background-position-y: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+  width: 100vw;
+  color: white;
+  padding: 2rem;
+  backdrop-filter: blur(7px);
+  background-color: rgba(0,0,0,.5)
+}
+
+h1 {
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+
+.container {
+  width: 60vw;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.slot {
+  width: 15vw;
+}
+
+h2 {
+  font-size: 5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.label {
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+footer {
+  height: 40px;
+  color: #ccc;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.65rem;
+  backdrop-filter: blur(7px);
+  background-color: rgba(0,0,0,.5)
+}
+
+footer > p + p {
+  margin-left: 0.25rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ccc;
+  font-weight: 700;
+  transition: all 350ms ease;
+}
+
+a:hover {
+  color: white;
+  transition: all 350ms ease;
+}
