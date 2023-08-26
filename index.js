@@ -1,4 +1,4 @@
-const countdownDate = new Date("August 26, 2023 12:00:00").getTime();
+const countdownDate = new Date("September 02, 2023 12:00:00").getTime();
 
 function formatTime(time) {
   return time < 10 ? "0" + time : time;
